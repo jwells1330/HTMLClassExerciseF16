@@ -1,0 +1,66 @@
+*{
+    font-family: "Anja Meiners", "Punchcut", sans-serif;
+}
+html{
+    background-image: url("../images/bats.gif");
+}
+body{
+    font-size: 100%;
+    width: 800px;
+    margin: auto;
+    
+    background-color: white;
+    
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    
+    box-shadow: 5px 5px 5px black;
+    
+    margin-bottom: 25px;
+    
+}
+h1{
+    font-size: 2.5em;
+}
+h2{
+    font-size: 2em;
+}
+div h1::first-letter{
+    font-size:3em;
+}
+header{
+    text-indent: 1em;
+    border-bottom-style: solid;
+    border-color: black;
+    
+    background-color: orange;
+    background: linear-gradient(45deg, white, orange, black);
+    padding: 5px;
+}
+header h1{
+}
+header img{
+    float: left;
+}
+a{
+    color: orange;
+    font-weight: bold;
+}
+a:hover{
+    color:green;
+}
+li{
+    margin: .5em;
+}
+footer{
+    font-size: .75em;
+    text-align: center;
+    border-top-style: solid;
+    border-color: black;
+    
+    background-color: orange;
+    background: linear-gradient(45deg, black, orange, white);
+    
+    padding: 5px;
+}

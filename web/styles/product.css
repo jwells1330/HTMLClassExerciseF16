@@ -1,0 +1,170 @@
+*{
+    font-family: "Anja Meiners", "Punchcut", sans-serif;
+}
+html{
+    background-image: url("../images/bats.gif");
+}
+body{
+    font-size: 100%;
+    width: 800px;
+    margin: auto;
+
+    background-color: white;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+
+    box-shadow: 5px 5px 5px black;
+
+    margin-bottom: 25px;
+
+
+}
+h1{
+    margin-top: 0px;
+    font-size: 2.5em;
+}
+h2{
+    font-size: 2em;
+}
+div h1::first-letter{
+    font-size:1.5em;
+}
+
+div{
+    margin-top: 50px;
+    margin-left: 175px;
+    margin-right: 200px;
+}
+div p{
+    margin-left: 185px;
+}
+
+header{
+    text-indent: 1em;
+
+    background-color: orange;
+    background: linear-gradient(45deg, white, orange, black);
+    padding: 5px;
+}
+header img{
+    float: left;
+    height: 100px;
+}
+header h1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+header h2{
+    margin-top: 5px;
+}
+footer{
+    font-size: .75em;
+    text-align: center;
+    border-top-style: solid;
+    border-color: black;
+
+    background-color: orange;
+    background: linear-gradient(45deg, black, orange, white);
+
+    padding: 5px;
+    clear: right;
+
+}
+#topBar ul, li{
+    margin: 0em;
+    padding: 0;
+    list-style: none;
+}
+#topBar li a{
+    display: block;
+    color: white;
+    background-color: black;
+    display: block;
+    line-height: 2em;
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+}
+#topBar li a:hover{
+    background-color: gray;
+}
+.current{
+    color: orange;
+}
+#topBar{
+    float: none;
+}
+#topBar li{
+    float: left;
+}
+div img{
+    float: left;
+}
+.price{
+    font-weight: bold;
+}
+#leftBar ui, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#leftBar{
+    clear: left;
+    float: left;
+    width: 175px;
+    position: relative;
+    left: -30px;
+}
+
+#leftBar a{
+    color: orange;
+}
+#leftBar li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-weight: bold;
+    line-height: 2em;
+    background-color: orange;
+    border-color: black;
+    border-style: solid;
+    border-width: .2em;
+    margin: .2em;
+    padding: .2em 0 .2em .2em;
+    
+}
+#leftBar li a:hover{
+    color:black;
+}
+
+#rightBar{
+    width: 180px;
+    float: right;
+    background-color: #F5DEB3
+}
+#rightBar h5{
+   font-weight: bold;
+   padding: 0 15px 0;
+   margin-top: 5px;
+   margin-bottom: -10px;
+}
+#rightBar img{
+        padding: 5px 0 5px;
+    width: auto;
+    max-width: 100px;
+    height: auto;
+    max-height: 100px;    
+}
+#rightBar a{
+    margin: -20px;
+    text-align: left;
+    color: black;
+}
+#rightBar a:hover{
+    color: green;
+}
+#rightBar a:focus{
+    color: green;
+}

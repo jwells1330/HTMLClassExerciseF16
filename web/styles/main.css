@@ -31,13 +31,14 @@ h2{
 div h1::first-letter{
     font-size:1.5em;
 }
+
 div{
+    margin-top: 50px;
     margin-left: 175px;
 }
+
 header{
     text-indent: 1em;
-    border-bottom-style: solid;
-    border-color: black;
 
     background-color: orange;
     background: linear-gradient(45deg, white, orange, black);
@@ -66,17 +67,67 @@ footer{
     padding: 5px;
 
 }
-nav{
-    float: left;
-    width: 175px
-}
 a{
     color: orange;
+}
+article ui, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+article{
+    clear: left;
+    float: left;
+    width: 175px;
+    position: relative;
+    left: -30px;
+}
+
+article a{
+    color: orange;
+}
+article li a{
+    text-decoration: none;
+    display: block;
+    color: black;
     font-weight: bold;
+    line-height: 2em;
+    background-color: orange;
+    border-color: black;
+    border-style: solid;
+    border-width: .2em;
+    margin: .2em;
+    padding: .2em 0 .2em .2em;
+    
 }
-a:hover{
-    color:green;
+article li a:hover{
+    color:black;
 }
-li{
-    margin: .5em;
+
+nav ul, li{
+    margin: 0em;
+    padding: 0;
+    list-style: none;
+}
+nav li a{
+    display: block;
+    color: white;
+    background-color: black;
+    display: block;
+    line-height: 2em;
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: gray;
+}
+.current{
+    color: orange;
+}
+nav{
+    float: none;
+}
+nav li{
+    float: left;
 }

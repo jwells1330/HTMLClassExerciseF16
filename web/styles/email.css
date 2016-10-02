@@ -57,7 +57,7 @@ footer{
     background: linear-gradient(45deg, black, orange, white);
 
     padding: 5px;
-
+    clear: left;
 }
 article ui, li{
     margin: 0;
@@ -115,4 +115,23 @@ nav{
 }
 nav li{
     float: left;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+}
+input{
+    width: 450px;
+}
+input{
+    margin-bottom: 10px;
+}
+input[type=submit]{
+    margin-left: 5px;
+    width: 150px;
+    
+    background-color: orange;
+    border-style: solid;
+    border-color: black;
 }

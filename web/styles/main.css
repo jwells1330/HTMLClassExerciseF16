@@ -65,7 +65,7 @@ footer{
     background: linear-gradient(45deg, black, orange, white);
 
     padding: 5px;
-
+    clear: left;
 }
 a{
     color: orange;

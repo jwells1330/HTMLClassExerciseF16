@@ -1,0 +1,137 @@
+*{
+    font-family: "Anja Meiners", "Punchcut", sans-serif;
+}
+html{
+    background-image: url("../images/bats.gif");
+}
+body{
+    font-size: 100%;
+    max-width: 960px;
+    margin: auto;
+
+    background-color: white;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+
+    box-shadow: 5px 5px 5px black;
+
+    margin-bottom: 25px;
+
+
+}
+h1{
+    margin-top: 0px;
+    font-size: 2.5em;
+}
+h2{
+    font-size: 2em;
+}
+div h1::first-letter{
+    font-size:1.5em;
+}
+
+div{
+    margin-top: 50px;
+    margin-left: 175px;
+}
+
+header{
+    text-indent: 1em;
+
+    background-color: orange;
+    background: linear-gradient(45deg, white, orange, black);
+    padding: 5px;
+}
+header img{
+    float: left;
+    height: 100px;
+}
+header h1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+header h2{
+    margin-top: 5px;
+}
+footer{
+    font-size: .75em;
+    text-align: center;
+    border-top-style: solid;
+    border-color: black;
+
+    background-color: orange;
+    background: linear-gradient(45deg, black, orange, white);
+
+    padding: 5px;
+    clear: left;
+}
+a{
+    color: orange;
+}
+article ui, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+article{
+    clear: left;
+    float: left;
+    width: 175px;
+    position: relative;
+    left: -30px;
+}
+
+article a{
+    color: orange;
+}
+article li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-weight: bold;
+    line-height: 2em;
+    background-color: orange;
+    border-color: black;
+    border-style: solid;
+    border-width: .2em;
+    margin: .2em;
+    padding: .2em 0 .2em .2em;
+    
+}
+article li a:hover{
+    color:black;
+}
+nav{
+    width: 100%;
+}
+nav ul, li{
+    margin: 0em;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    width: 20%;
+}
+nav li a{
+    display: block;
+    color: white;
+    background-color: black;
+    display: block;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: gray;
+}
+.current{
+    color: orange;
+}
+nav{
+    float: none;
+}
+nav li{
+    float: left;
+}

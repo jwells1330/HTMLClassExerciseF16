@@ -46,7 +46,9 @@ header{
 }
 header img{
     float: left;
-    height: 100px;
+    width: 10%;
+    max-width: 85px;
+    min-width: 40px;
 }
 header h1{
     margin-top: .1em;
@@ -98,6 +100,7 @@ article li a{
     border-width: .2em;
     margin: .2em;
     padding: .2em 0 .2em .2em;
+    min-width: 50px;
     
 }
 article li a:hover{
@@ -105,6 +108,13 @@ article li a:hover{
 }
 nav{
     width: 100%;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black; 
 }
 nav ul, li{
     margin: 0em;
@@ -126,6 +136,9 @@ nav li a{
 nav li a:hover{
     background-color: gray;
 }
+#menu{
+    display:none;
+}
 .current{
     color: orange;
 }
@@ -134,4 +147,79 @@ nav{
 }
 nav li{
     float: left;
+}
+#catPic{
+    width: 25%;
+    max-width: 154px;
+}
+#smallScreen{
+    display: none;
+}
+
+
+@media screen and (max-width: 800px){
+    *{
+        font-size: 90%;
+    }
+    html{
+        background-image: none;
+    }
+    body{
+        box-shadow: none;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #bigScreen{
+        display: none;
+    }
+    div{
+       margin-left: 1em; 
+    }
+    #smallScreen{
+        display: block;
+        margin: auto;
+        float: none;
+    }
+    #menu{
+        float: right;
+        display: inline-block;
+        width: 10%;
+    }
+    nav li{
+        display:none;
+    }
+    .hamburger{
+        position: relative;
+        color: white;
+        background-color: black;
+    }
+    .hamburger #menu{
+        float: right;
+        width: 100%;
+    }
+    .hamburger li{
+        float: none;
+        display: inline;
+        background-color: black;
+        color: white;
+        width: 20%;
+    }
+    .hamburger li a{
+        width: 20%;
+        display: block;
+        text-align: left;
+        background-color: black;
+    }
+    .hamburger ul{
+        background-color: black;
+    }
+}
+@media screen and (max-width: 479px){
+    h1{
+        font-size: 50%;
+    }
+    h2{
+        font-size: 50%;
+    }
 }

@@ -143,8 +143,10 @@ th[rowspan]{
     vertical-align: top;
 }
 tr td:last-child{
+    text-align: right;
     background-color: #F5DEB3;
 }
 tr th:last-child{
+    text-align: right;
     background-color: #F5DEB3;
 }
